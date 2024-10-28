@@ -92,7 +92,7 @@ function renderResume(data: ResumeData) {
                 <h1>${data.name}</h1>
             </span>
             <span class="info-section">
-                <p>Birth Date: ${data.dateOfBirth} <br> Address: ${data.address} <br> Phone: ${data.phone} <br> Email: ${data.email}</p>
+                <p><b>Phone :</b>${data.phone} <br><b>Email :</b> ${data.email} <b> <br> Birth Dat :</b> ${data.dateOfBirth}<br> <b>Address :</b> ${data.address}</p>
             </span>
             <div class="education">
                 <h2>EDUCATION:</h2>
